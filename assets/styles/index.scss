@@ -1,2 +1,28 @@
 $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap';
+
+h1 {
+  text-align: center;
+  align: center;
+  margin: auto;
+}
+
+.pic {
+background: url('../../trees.png');
+background-position: center;
+background-size: cover;
+opacity: 1;
+position: fixed;
+height: 100%;
+width: 100%;
+}
+
+body {
+  background-color: purple;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  margin: 100px 20px 20px 20px;
+}
